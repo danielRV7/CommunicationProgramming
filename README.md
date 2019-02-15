@@ -8,15 +8,15 @@ Five projects. They were made for a last-year degree subject. Read the README.md
 
 Anyway, I'm going to write a short summary:
 
-* Project 1: Creation of a Client-Server application using HTTP protocol. The server answer with the same text the client has given. It's called "echo-service". TCP sockets.
+* Project 1 (ClientServerHTTP): Creation of a Client-Server application using HTTP protocol. The server answer with the same text the client has given. It's called "echo-service". TCP sockets.
 
-* Project 2: Now we have two servers. They send via broadcast constantly their information and the client listen it. The information simulates the obtaining of weather forecast (temperature, humidity, pressure, wind speed...). The client can communicate with the servers and change some weather units. Now we use UDP instead of TCP.
+* Project 2 (ServersWithUDP): Now we have two servers. They send via broadcast constantly their information and the client listen it. The information simulates the obtaining of weather forecast (temperature, humidity, pressure, wind speed...). The client can communicate with the servers and change some weather units. Now we use UDP instead of TCP.
 
-* Project 3: Now we add the servers the functionality of treat XML and JSON files. The messages of our application are using those mark languages. We created two parsers.
+* Project 3 (XMLandJSON): Now we add the servers the functionality of treat XML and JSON files. The messages of our application are using those mark languages. We created two parsers.
 
-* Project 4: SSL protocol implementation. Now we can access to our servers using https://localhost, for example, in a navigator. The creation of some keystores, certificates and this stuff was necessary. Is important to import them in our system/navigator before trying the access, otherwise it will say that it's not a safe site and SSL won't create the secured communication.
+* Project 4 (SSLsupport): SSL protocol implementation. Now we can access to our servers using https://localhost, for example, in a navigator. The creation of some keystores, certificates and this stuff was necessary. Is important to import them in our system/navigator before trying the access, otherwise it will say that it's not a safe site and SSL won't create the secured communication.
 
-* Project 5: Now the old client is the center of the application and it's the server we access now. From a navigator, like Safari, we have 3 ways of obtain the weather forecast. Using HTTP, HTTPS or email. We created a MailServer in out project, which send the weather forecast via mail. JavaMail was the tool I used. 
+* Project 5 (FinalApp): Now the old client is the center of the application and it's the server we access now. From a navigator, like Safari, we have 3 ways of obtain the weather forecast. Using HTTP, HTTPS or email. We created a MailServer in out project, which send the weather forecast via mail. JavaMail was the tool I used. 
 
 I hope you enjoy this project as much as I did creating it. It displays random weather information, because that's not the objective of the program. The real objective is to learn / applicate the protocols. 
 
