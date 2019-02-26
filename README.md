@@ -1,4 +1,4 @@
-# MultimediaCommunications
+# CommunicationProgramming
 Five projects. They were made for a last-year degree subject. Read the README.md for more info. 
 
 - Every project has his code and a memory (explication) of everything. 
