@@ -8,7 +8,7 @@ Five projects. They were made for a last-year degree subject. Read the README.md
 
 Anyway, I'm going to write a short summary:
 
-* Project 1 (ClientServerHTTP): Creation of a Client-Server application using HTTP protocol. The server answer with the same text the client has given. It's called "echo-service". TCP sockets.
+* Project 1 (ClientServerHTTP): Creation of a Client-Server application using HTTP protocol. The server answers with the same text the client has given. It's called "echo-service". TCP sockets.
 
 * Project 2 (ServersWithUDP): Now we have two servers. They send via broadcast constantly their information and the client listen it. The information simulates the obtaining of weather forecast (temperature, humidity, pressure, wind speed...). The client can communicate with the servers and change some weather units. Now we use UDP instead of TCP.
 
